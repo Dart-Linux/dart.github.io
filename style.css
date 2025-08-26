@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto.woff");
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("fonts/Roboto-Condensed.woff");
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    font-family: RobotoCondensed, sans-serif;
+}
+
+.topbar {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    box-shadow: 0px 5px 10px gray;
+}
+
+.logo-title {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.title-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+
+.topbar-nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.topbar-nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 15px;
+    font-family: Roboto;
+}
+
+section h1 {
+    font-size: 24pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section a {
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+h3 .hic {
+    height: 1em;
+    vertical-align: middle;
+}
